@@ -1,0 +1,11 @@
+
+.myHeader {
+    padding: 1ch;
+    min-width: 100vw;
+    border-bottom: 0.5ch solid crimson;
+
+    span {
+        font-size: 2rem;
+        color: crimson;
+    }
+}

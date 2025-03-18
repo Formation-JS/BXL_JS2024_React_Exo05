@@ -1,0 +1,37 @@
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.task-item {
+    display:  flex;
+    flex-direction: row;
+    padding: 1ch;
+    box-shadow: hsl(348, 83%, 80%) 0.2ch 0.2ch 0.2ch;
+    border-radius: 1ch;
+    border: hsl(348, 83%, 80%) solid .1ch;
+
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .task-info {
+        flex-grow: 1;
+    }
+
+    .task-btn {
+        display: flex;
+        gap: 1ch;
+    }
+}
+
+.urgent {
+    color: crimson;
+    font-weight: bold;
+}
+
+.is-done {
+    background-color: hsl(300, 47%, 90%);
+}

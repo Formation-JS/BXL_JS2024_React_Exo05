@@ -1,0 +1,23 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1ch;
+    width: 100%;
+
+    div {
+        display: flex;
+        flex-direction: column;
+
+        textarea, input, select {
+            font-size: 0.8em;
+            font-weight: normal;
+            font-family: inherit;
+            padding: 0.3ch;
+        }
+        textarea {
+            height: 4.6em;
+            resize: none;
+        }
+    }
+
+}
